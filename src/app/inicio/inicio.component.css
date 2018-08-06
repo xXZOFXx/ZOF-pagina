@@ -8,7 +8,7 @@
     padding: 0;
     outline: 0;
     border: 0;
-    font-size: 300px;
+
     color: white;
     text-align: inherit;
     text-decoration: inherit;
@@ -17,7 +17,21 @@
     background: transparent;
 }
 
-  .sub  {  
+  .sub  {
    font-size: 16px !important;
     letter-spacing: .5px;
+}
+.medio{
+  width:90%;
+  height: 500px;
+  margin: auto;
+  display: flex;
+
+}
+.img1{
+    width: 20%;
+}
+.texto1{
+  width: 80%;
+
 }
