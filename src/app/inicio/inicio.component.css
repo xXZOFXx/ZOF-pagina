@@ -17,21 +17,23 @@
     background: transparent;
 }
 
-  .sub  {
-   font-size: 16px !important;
-    letter-spacing: .5px;
-}
-.medio{
-  width:90%;
-  height: 500px;
-  margin: auto;
+
+div#general{
   display: flex;
-
+  margin: auto;
+  margin-top: auto;
+  width: auto;
+  height: auto;
+  border:1px solid black;
 }
-.img1{
-    width: 20%;
-}
-.texto1{
-  width: 80%;
 
+div#izquierda{
+width: 35%;
+background-color: red;
+  }
+
+div#derecha{
+width:67%;
+background-color: green;
+float: right;
 }
