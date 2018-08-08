@@ -18,22 +18,23 @@
 }
 
 
-div#general{
-  display: flex;
-  margin: auto;
-  margin-top: auto;
-  width: auto;
-  height: auto;
-  border:1px solid black;
+
+div#general {
+  text-align: center;
+      background-color: #eee;
+      padding-top: 82px;
+      padding-bottom: 65px;
+      position: relative;
+      width: 100%;
 }
 
-div#izquierda{
-width: 35%;
-background-color: red;
-  }
 
-div#derecha{
-width:67%;
-background-color: green;
-float: right;
+.libre{
+
+  font-size: 51.646px;
+  font-size: 62px;
+  letter-spacing: -.7px;
+  color: #green;
+  font-family: BrandonGrotesque-Medium;
+  margin: 0;
 }
