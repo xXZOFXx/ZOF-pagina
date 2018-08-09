@@ -1,20 +1,19 @@
+
+
+.video{
+min-width: 100%;
+
+}
+
+
 .titulo {
     position: absolute;
     left: 50%;
     top: 60%;
     transform: translate(-50%,-50%);
     text-align: center;
-    margin: 0;
-    padding: 0;
-    outline: 0;
-    border: 0;
-
     color: white;
-    text-align: inherit;
-    text-decoration: inherit;
-    box-sizing: inherit;
-    vertical-align: inherit;
-    background: transparent;
+
 }
 
 
@@ -34,7 +33,6 @@ div#general {
   font-size: 51.646px;
   font-size: 62px;
   letter-spacing: -.7px;
-  color: #green;
-  font-family: BrandonGrotesque-Medium;
+  color: green;
   margin: 0;
 }
