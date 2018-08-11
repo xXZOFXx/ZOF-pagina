@@ -33,12 +33,12 @@ div#general {
   width: 100%;
   max-width: 1160px;
   margin: 0 auto;
-  color: green;
+  color: #3D5F4E;
 }
 
 .icons{
-  margin: 0;
-    margin-top: 0px;
+margin: 0;
+margin-top: 0px;
 padding: 0;
 outline: 0;
 border: 0;
