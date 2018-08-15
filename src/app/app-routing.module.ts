@@ -4,7 +4,7 @@ import { CommonModule } from '@angular/common';
 import{InicioComponent} from './inicio/inicio.component'
 import{ProblemaComponent} from './problema/problema.component'
 import{DistrosComponent} from './distros/distros.component'
-
+import{ObjetivoComponent} from './objetivo/objetivo.component'
 
 const routes: Routes = [
   {
@@ -19,6 +19,11 @@ const routes: Routes = [
   {
     path: 'distros',
     component: DistrosComponent
+  },
+
+  {
+    path: 'objetivo',
+    component: ObjetivoComponent
   },
 
   { path: '', redirectTo: '/inicio', pathMatch: 'full' }

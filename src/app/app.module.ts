@@ -7,6 +7,7 @@ import { BarrainicioComponent } from './barrainicio/barrainicio.component';
 import { AppRoutingModule } from './/app-routing.module';
 import { ProblemaComponent } from './problema/problema.component';
 import { DistrosComponent } from './distros/distros.component';
+import { ObjetivoComponent } from './objetivo/objetivo.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { DistrosComponent } from './distros/distros.component';
     InicioComponent,
     BarrainicioComponent,
     ProblemaComponent,
-    DistrosComponent
+    DistrosComponent,
+    ObjetivoComponent
   ],
   imports: [
     BrowserModule,
